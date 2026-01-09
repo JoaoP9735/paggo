@@ -69,7 +69,7 @@ export default function Home() {
     if (!token) { router.push('/login'); return; }
 
     setLoading(true);
-    setStatus("Processando inteligência artificial...");
+    setStatus("Processando...");
 
     const formData = new FormData();
     formData.append('file', file);
@@ -251,7 +251,7 @@ export default function Home() {
                         {doc.fileName}
                       </h3>
                       <p className="text-xs text-zinc-400 font-mono mt-1 uppercase tracking-wide">
-                        ID: <span className="text-zinc-600 font-bold">#{doc.id}</span> • {new Date(doc.createdAt).toLocaleDateString()} às {new Date(doc.createdAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                        ID: <span className="text-zinc-600 font-bold">#{doc.id}</span> • {new Date(doc.createdAt).toLocaleDateString('pt-BR')} às {new Date(doc.createdAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                       </p>
                     </div>
                   </div>

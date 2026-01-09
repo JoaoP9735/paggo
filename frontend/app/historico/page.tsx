@@ -103,7 +103,7 @@ export default function HistoricoCompleto() {
                   <div>
                     <h2 className="text-2xl font-bold text-zinc-900">{doc.fileName}</h2>
                     <p className="text-sm text-zinc-400 mt-1 uppercase font-semibold tracking-wide">
-                      Processado em {new Date(doc.createdAt).toLocaleString()}
+                      Processado em {new Date(doc.createdAt).toLocaleString('pt-BR')}
                     </p>
                   </div>
                   <span className="bg-zinc-100 text-zinc-600 text-sm font-bold font-mono py-1.5 px-4 rounded border border-zinc-200 h-fit">
