@@ -5,7 +5,7 @@ Soluçãopara gestão de documentos com extração de texto (OCR) e resumos inte
 Funcionalidades
 * **Autenticação**: Login e registro com JWT.
 * **Processamento**: Upload de JPG/PNG com extração OCR.
-* **Inteligência**: Resumos executivos automáticos via Gemini 1.5 Flash.
+* **Inteligência**: Resumos executivos automáticos via Groq meta-llama.
 * **Histórico**: Busca por nome/ID e visualização detalhada.
 * **Interface**: UI moderna com scroll, botões de cópia e cabeçalho dark mode.
 
